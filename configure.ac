@@ -100,6 +100,7 @@ AM_CONFIG_HEADER(btsconfig.h)
 AC_OUTPUT(
     src/Makefile
     src/common/Makefile
+    src/osmo-bts-virtual/Makefile
     src/osmo-bts-sysmo/Makefile
     src/osmo-bts-trx/Makefile
     src/osmo-bts-octphy/Makefile
