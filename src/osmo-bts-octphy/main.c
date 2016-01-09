@@ -56,6 +56,7 @@ static struct gsm_bts *bts;
 
 int bts_model_print_help()
 {
+	return 0;
 }
 
 int bts_model_handle_options(int argc, char **argv)
